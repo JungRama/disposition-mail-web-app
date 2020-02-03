@@ -1,0 +1,304 @@
+/* UNTUK ALL  */
+*{
+  font-family: 'Roboto Slab', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #000;
+}
+.text-no-margin{
+  margin: 0px;
+}
+
+/* COLOUMN */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    height: auto;
+}
+/* COLOUMN */
+
+/* Login */
+.login-background{
+  width: 100%;
+  margin-top: 80px;
+}
+.login-kotak{
+  width: 350px;
+}
+.login-form input[type=text]{
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+}
+.login-form input[type=password]{
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+}
+.login-form input[type=text]:focus, .login-form input[type=password]:focus{
+  outline: 0;
+  box-shadow: 0;
+}
+.login-type{
+  margin-top: 10px;
+  width: 107%;
+  padding: 10px 0px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.login-form input[type=submit]{
+  margin-top: 10px;
+  width: 107%;
+  padding: 15px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+.login-form input[type=submit]:hover{
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 10px;
+  width: 107%;
+  padding: 15px;
+  background-color: #fff;
+  border: 1.5px solid #fff;
+  border-radius: 5px;
+  color: #000;
+}
+/* End Login */
+/* MENU */
+.btn-1{
+  background-color: #FFF;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+/* Circle profil */
+.circle-profil{
+  border-radius: 50%;
+}
+/* CONTENT */
+/* CONTENT All */
+.content-atas-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.content-atas-btn{
+  float: right;
+  margin-top: 5px;
+}
+.content-atas-btn a{
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #2c3e50;
+  padding: 11px;
+}
+.filter-submit{
+  border: 0;
+  border-radius: 2px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #2c3e50;
+  padding: 10px;
+}
+.content-container{
+    margin: 0px 60px 0px 0px;
+}
+.kotak-content{
+  box-shadow: 1px 1px 5px 0px rgba(79,79,79,0.3);
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.kotak-content-info{
+  box-shadow: 1px 1px 5px 0px rgba(79,79,79,0.3);
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  height: 100px;
+  border-radius: 5px;
+  padding: 20px;
+}
+/* FORM CONTETNT */
+.form-content{
+  margin-bottom: 20px;
+}
+.content-atas-title input[type=text], input[type=date]{
+  width: 150px;
+  padding: 9px;
+  border: 1.5px solid #ccc;
+  color: #000;
+  transition: 1s;
+}
+.content-atas-title input[type=text]:focus{
+  outline: 0;
+  border: 1px solid #2c3e50;
+  width: 350px;
+  transition: 1s;
+}
+.form-content input[type=text], .form-content input[type=password], .form-content input[type=date], .form-content input[type=number]  , .form-content textarea{
+  width: 90%;
+  padding: 10px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  color: #000;
+}
+.form-content input[type=text]:focus,.form-content input[type=password]:focus, .form-content input[type=date]:focus,
+.form-content input[type=number]:focus, .form-content textarea:focus, .form-select:focus{
+  outline: 1.5px solid #2c3e50;
+}
+.form-select{
+  width: 95%;
+  padding: 9px;
+}
+.form-select-filter{
+  width: 200px;
+  padding: 9px;
+}
+.form-content textarea{
+  height: 110px;
+  resize: none;
+}
+.btn-form-submit{
+  border: 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #2c3e50;
+}
+.btn-form-submit:hover{
+  background-color: #34495E;
+}
+.btn-form-reset{
+  border: 0px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #aaa;
+}
+.btn-form-reset:hover{
+  background-color: #bbb;
+}
+/* TABLE CONTENT */
+#table-content{
+  background-color: #fff;
+  padding: 0px;
+  border: 0;
+  box-shadow: 1px 1px 5px 0px rgba(79,79,79,0.3);
+}
+#table-content table {
+  border-radius:6px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table-content th {
+    background-color: #2c3e50;
+    color: #fff
+}
+#table-content td, th {
+    text-align: left;
+    padding: 8px;
+}
+#table-content tr{
+  border-bottom: 1px solid #ddd;
+}
+#table-content tr:hover {
+  background-color: #f5f5f5;
+}
+.table-td-aksi{
+  margin: 10px;
+  padding: 10px;
+}
+/* BUTTON AKSI */
+.btn-aksi-edit{
+  text-decoration: none;
+  padding: 5px;
+  width: 100%;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #3d77ce;
+}
+.btn-aksi-disposisi{
+  text-decoration: none;
+  padding: 5px;
+  width: 100%;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #43b237;
+}
+.btn-aksi-cetak{
+  text-decoration: none;
+  padding: 5px;
+  width: 100%;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #eabc15;
+}
+.btn-aksi-hapus{
+  text-decoration: none;
+  padding: 5px;
+  width: 100%;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #e53d3d;
+}
+.btn-status{
+  text-decoration: none;
+  padding: 5px;
+  width: 100%;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #2c3e50;
+}
+/* END CONTENT */
+/* HOME */
+.clock-time{
+  text-align: center;
+  background-image: url("../img/bg-menu.jpg");
+  background-size: cover;
+  color: #fff;
+}
+.home-set-instansi{
+  float: right;
+  color: #fff;
+}
